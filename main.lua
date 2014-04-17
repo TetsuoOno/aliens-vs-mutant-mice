@@ -19,6 +19,9 @@ display.setStatusBar( display.HiddenStatusBar )
 -- require the composer library
 local composer = require "composer"
 
+local physics = require "physics"
+physics.start()
+
 -- load scene1
 composer.gotoScene( "scene1" )
 
