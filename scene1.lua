@@ -1,17 +1,8 @@
--- Abstract: Aliens vs Mutant Mice Skeleton 
+-------------------------------------------------------------------------------
 --
--- Demonstrates Composer GUI
--- 
--- Version: 1.0
--- 
--- Sample code is MIT licensed, see http://www.coronalabs.com/links/code/license
--- Copyright (C) 2014 Corona Labs Inc. All Rights Reserved.
+-- <scene>.lua
 --
----------------------------------------------------------------------------------
---
--- scene.lua
---
----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 local sceneName = ...
 
@@ -20,7 +11,7 @@ local composer = require( "composer" )
 -- Load scene with same root filename as this file
 local scene = composer.newScene( sceneName )
 
----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 function scene:create( event )
     local sceneGroup = self.view
@@ -36,12 +27,12 @@ function scene:show( event )
     local phase = event.phase
 
     if phase == "will" then
-        -- Called when the scene is still off screen and is about to move on screen
+        -- Called when the scene is off screen and is about to move on screen
     elseif phase == "did" then
         -- Called when the scene is now on screen
         -- 
         -- INSERT code here to make the scene come alive
-        -- e.g. start timers, begin animation, play audio, etc        
+        -- e.g. start timers, begin animation, play audio, etc
     end 
 end
 
@@ -69,7 +60,7 @@ function scene:destroy( event )
     -- e.g. remove display objects, remove touch listeners, save state, etc
 end
 
----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 -- Listener setup
 scene:addEventListener( "create", scene )
@@ -77,6 +68,6 @@ scene:addEventListener( "show", scene )
 scene:addEventListener( "hide", scene )
 scene:addEventListener( "destroy", scene )
 
----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 return scene
