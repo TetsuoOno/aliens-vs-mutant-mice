@@ -18,7 +18,7 @@ Caleb P. @ [Gymbyl Coding](http://gymbyl.com/)
 
 ====================================
 
-Watch the demo video [here](http://youtu.be/K8zLU-2wtYQ)
+Watch the demo video [here](http://youtu.be/tfyg-MYz3-g)
 
 Follow the quick tutorial [here](http://docs.coronalabs.com/daily/composer/tutorial.html)
 
