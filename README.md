@@ -4,7 +4,7 @@
 ##Credits: 
 
 ### Game artwork by: 
-Billy Wilson @ [Different by Design](dxdportfolio.com)
+Billy Wilson @ [Different by Design](http://www.dxdportfolio.com)
 
 [LinkedIn](https://www.linkedin.com/profile/view?id=48110179)
 
